@@ -84,3 +84,20 @@ background-color: #525050;}
 /* barre gris clair */
 
 /* body */
+#Moment{ 
+    border: solid black 4px;
+}
+
+#Bonnet{
+
+    border: solid red 4px;
+}
+
+#sweat_vert{
+    border:  solid purple 4px;
+}
+
+#outwear{
+    border: solid violet 4px;
+}
+
