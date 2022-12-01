@@ -1,16 +1,17 @@
 *{margin: 0;
     padding: 0;
-    font-family: 'Didact Gothic', sans-serif;}
+    font-family: 'Didact Gothic', sans-serif;
+}
 
 ul{list-style: none;}
 
 a{text-decoration: none;
-    transition: all 0.1s ease-out; 
+    transition: all 0.2s ease-out; 
     }
 
 
-
 /* entête */
+
 
 #entête{
     /* border: solid red 4px; */
@@ -38,7 +39,9 @@ font-size: 14px;
     line-height:  30px;
 }
 
-.liste:hover{ color: blue;}
+.liste:hover{ 
+    /* color: blue; */
+}
 
 span{border-left: solid #D1D1D1 1px;
 }
@@ -54,60 +57,124 @@ vertical-align: middle;
 /* barre foncé */
 #barre{background-color: #2D2D2D;
 color: white;
-border: solid yellow 4px;
-display: flex;
-align-items:center;
-height: 60px;
+/* border: solid orange 4px; */
+;display: flex;
+    align-items: center;
+    justify-content: center;
+/* height: 60px; */
+width: 100%;
+
 }
 
 #liste_barre{
     border: solid blue 4px;
+
     display: flex;
-    align-items: center;
-    width: 100%;
+/* flex-direction: row; */
+align-items:center;
+
+width: 100%;
     margin: 0px 32px;}
 
 .bouton_barre:hover, a:focus {background-color: #525050;}
 
 .bouton_barre{
-    border: solid yellow 4px;
+    border: solid yellow 4px; 
+    width: 400px; 
+    display: flex;
+    align-self: center;
+    
 }
 
 .icon_barre{
-    border: solid red 4px;
+    /* border: solid red 4px; */
     height: 20px;
     width: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* barre de recherche */
-#search{
-    border: solid orange 4px;
-    width: 150px;
-}
+#recherche{display: flex;
+    flex-direction: row;
+    align-items: center;}
+    /* width: 90px; */
+    
+    /* barre de recherche */
+    #search{border-radius: 50px;
+    border: 0px;
+    height: 50px;
+    margin-top: 20px;
+    color: dimgray;
+    
 
-#button{ width: 30px;}
+/* width: 100%; */
+    padding-left: 40px;
+    font-size: 15px;}
+    
+    #redbutton{
+        background-color: white;
+    border-radius: 50px;
+    /* display: block; */
+    width: 50px;
+    height: 50px;
+    /* text-align: center; */
 
-/* barre de recherche */
+    font-size: 15px;
+    cursor: pointer;}
+
+/* barre de recherche fin */
 
 #logo_asos{width: 4%;}
-/* barre foncé */
+/* barre foncé fin */
 
 
 
 /* barre gris clair */
 nav{
-    height: 50px;
+    list-style: none;
 }
 
-#menu{list-style: none;}
+#menu{
+    
+}
 
-#navigation{border: solid fuchsia 4px;
-background-color: #525050;}
-/* barre gris clair */
+#navigation{
+    /* border: solid fuchsia 4px; */
+background-color: #525050;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+height: 50px;
+width: 100%;
+font-size: 14px;
+}
+
+.liste_navigation:hover, a:focus {
+    background-color: white;
+    color:#525050;    
+}
+
+.liste_navigation {
+    /* border: solid turquoise 4px; */
+    padding: 18px;
+    transition: all 0.1s ease-out;
+    color: white;
+    
+}
+
+/* barre gris clair fin */
 
 /* body */
+#Promos{
+    max-width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-self: center;}
+
 #Moment{ 
-    border: solid black 4px;
+    /* border: solid black 4px; */
     height: 650px;
     display: flex;
     align-items: center;
@@ -115,33 +182,37 @@ background-color: #525050;}
 }
 
 #Bonnet{
-    border: solid red 4px;
+    /* border: solid red 4px; */
     height: 450px;
     width: 350px;
 
 }
 
 #sweat_vert{
-    border:  solid purple 4px;
+    /* border:  solid purple 4px; */
     height: 450px;
     width: 350px;
 
 }
 
 #outwear{
-    border: solid violet 4px;
+    /* border: solid violet 4px; */
     height: 450px;
     width: 350px;
 }
 
 #party{
-    border: solid turquoise 4px;
+    /* border: solid turquoise 4px; */
     height: 450px;
     width: 350px;
 }
 
+#Capaldi{
+    max-width: 100%;
+}
+
 #duo{ 
-    border: solid black 4px;
+    /* border: solid black 4px; */
     height: 650px;
     display: flex;
     align-items: center;
@@ -149,15 +220,57 @@ background-color: #525050;}
 }
 
 #basket{
-    border: solid pink 4px;
+    /* border: solid pink 4px; */
     height: 500px;
     width: 400px;
 }
 
 #silhouette{
-    border: solid yellow 4px;
+    /* border: solid yellow 4px; */
     height: 500px;
     width: 400px;
 }
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+#tableau{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #e5bff3;
+}
+
+
+
+
+
 
 /* body */

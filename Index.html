@@ -24,38 +24,38 @@
 <header>
     <div id="barre">
         <ul id="liste_barre">
-            <li><img id ="logo_asos" src="Images/asos-logo.png" alt="Logo_ASOS"></li>
-            <li class="bouton_barre"><a href="">FEMMES</a></li>
-            <li class="bouton_barre"><a href="">HOMMES</a></li>
-            <li ><form role="search">
-                <div id="recherche">
-                    <input type="search" id="search" name="q" placeholder="Rechercher des articles et des marques" maxlength="150"
+            <li><a href="#"><img id ="logo_asos" src="Images/asos-logo.png" alt="Logo_ASOS"></a></li>
+            <div><li class="bouton_barre"><a href="">FEMMES</a></li>
+            <li class="bouton_barre"><a href="">HOMMES</a></li></div>
+            <div><li class="bouton_barre"><form role="search">
+               <div class="bouton_barre"id="recherche">
+                    <input type="search" id="search" name="q" placeholder="Rechercher des articles et des marques" size="60"
                     aria-label="Rechercher des articles et des marques">
-                    <button id="button">Rechercher</button>
-                </div></li>
-            <li class="bouton_barre"><a href=""><img class="icon_barre" src="Images/icon _person_.png" alt=""></a></li>
+                    <button ><img class="bouton_barre" id="redbutton" src="Images/icon _search_.png" alt=""></button>
+                </div></li></div>
+            <div><li class="bouton_barre"><a href=""><img class="icon_barre" src="Images/icon _person_.png" alt=""></a></li>
             <li class="bouton_barre"><a href=""><img class="icon_barre" src="Images/icon _heart_.png" alt=""></a></li>
-            <li class="bouton_barre"><a href=""><img class="icon_barre" src="Images/icon _shopping bag_.png" alt=""></a></li>
+            <li class="bouton_barre"><a href=""><img class="icon_barre" src="Images/icon _shopping bag_.png" alt=""></a></li></div>
         </ul>
     </div>
 
     <nav> 
         <ul id="menu">
             <div id="navigation">
-                <li><a href="#">Cyber Monday</a></li>
-                <li><a href="#">Nouveautés</a></li>
-                <li><a href="#">Vêtements</a></li>
-                <li><a href="#">Robes</a></li>
-                <li><a href="#">Chaussures</a></li>
-                <li><a href="#">Accessoires</a></li>
-                <li><a href="#">Cadeaux</a></li>
-                <li><a href="#">Toutes les marques</a></li>
-                <li><a href="#">Hiver</a></li>
-                <li><a href="#">Topshop</a></li>
-                <li><a href="#">Sport</a></li>
-                <li><a href="#">Visage + Corps</a></li>
-                <li><a href="#">Outlet</a></li>
-                <li><a href="#">Merketplace</a></li>
+                <li><a class="liste_navigation"  href="#">Cyber Monday</a></li>
+                <li><a class="liste_navigation" href="#">Nouveautés</a></li>
+                <li><a class="liste_navigation" href="#">Vêtements</a></li>
+                <li><a class="liste_navigation" href="#">Robes</a></li>
+                <li><a class="liste_navigation" href="#">Chaussures</a></li>
+                <li><a class="liste_navigation" href="#">Accessoires</a></li>
+                <li><a class="liste_navigation" href="#">Cadeaux</a></li>
+                <li><a class="liste_navigation" href="#">Toutes les marques</a></li>
+                <li><a class="liste_navigation" href="#">Hiver</a></li>
+                <li><a class="liste_navigation" href="#">Topshop</a></li>
+                <li><a class="liste_navigation" href="#">Sport</a></li>
+                <li><a class="liste_navigation" href="#">Visage + Corps</a></li>
+                <li><a class="liste_navigation" href="#">Outlet</a></li>
+                <li><a class="liste_navigation" href="#">Merketplace</a></li>
             </div>
         </ul>
     </nav>
@@ -63,30 +63,54 @@
 
 <body>
 <section>
-<img src="Images/Promos.png" alt="">
+    <a href="#"><img id="Promos" src="Images/Promos.png" alt="Cyber-Monday"></a>
 </section>
 
 
 <section id="Moment">
-    <img id="Bonnet" src="Images/global_top_picks_moment.jpeg" alt="">
+    <figure>
+        <a href="#"><img id="Bonnet" src="Images/global_top_picks_moment.jpeg" alt="Bonnet-beige"></a>
+        
+        <figcaption>Accessoires d'hiver</figcaption>
+    </figure>
 
-<img id="sweat_vert" src="Images/moment_big-brands-2.jpeg" alt="">
+    <figure>
+        <a href="#"><img id="sweat_vert" src="Images/moment_big-brands-2.jpeg" alt="Sweat_vert"></a>
 
-<img id="outwear" src="Images/moment_outwear-2.jpeg" alt="">
+        <figcaption>Streetwear</figcaption>
+    </figure>
 
-<img id="party" src="Images/moment_party-pieces-2.jpeg" alt="">
+    <figure>
+            <a href="#"><img id="outwear" src="Images/moment_outwear-2.jpeg" alt="blouson-violet"></a>
+
+        <figcaption>Outwear</figcaption>
+    </figure>
+
+    <figure>
+        <a href="#"><img id="party" src="Images/moment_party-pieces-2.jpeg" alt="Robe-rose-à-paillettes"></a>
+
+        <figcaption>Fêtes</figcaption>
+    </figure>
 </section>
 
 
 <section>
-<img src="Images/Lewis_Capaldi.png" alt="">
+<a href="#"><img id="Capaldi" src="Images/Lewis_Capaldi.png" alt="Lewis-Capaldi"></a>
 </section>
 
 
 <section id="duo">
-    <img id="basket" src="Images/Basket.png" alt="">
+    <figure>
+        <a href="#"><img id="basket" src="Images/Basket.png" alt="Sneakers-Nike"></a>
+    
+        <figcaption>Baskets</figcaption>
+    </figure>
 
-    <img id="silhouette" src="Images/Silhouette.png" alt="">
+    <figure>
+        <a href="#"><img id="silhouette" src="Images/Silhouette.png" alt="Costume-femme"></a>
+
+<figcaption>Outlet</figcaption>
+</figure>
 </section>
 
 
@@ -96,12 +120,53 @@
 
 
 <section>
-<div></div>
+<div id="tableau">
+    <table>
+        <table class="GeneratedTable">
+            <thead>
+              <tr>
+                <th>Lorem ipsum dolor sit amet.</th>
+                <th>Lorem ipsum dolor sit amet.</th>
+                <th>Lorem ipsum dolor sit amet.</th>
+                <th>Lorem ipsum dolor sit amet.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+              </tr>
+            </tbody>
+          </table>
+    </table>
+</div>
 </section>
 
 
 <section>
-<div></div>
+<div>
+    <!-- <img src="../Asos/JP/4130615360010_060_c.jpg" alt=""> -->
+</div>
 </section>
 
 
