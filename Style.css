@@ -8,7 +8,10 @@ a{text-decoration: none;
     transition: all 0.1s ease-out; 
     }
 
+
+
 /* entête */
+
 #entête{
     /* border: solid red 4px; */
 display: flex;
@@ -35,7 +38,7 @@ font-size: 14px;
     line-height:  30px;
 }
 
-.liste:hover{ color: #666666;}
+.liste:hover{ color: blue;}
 
 span{border-left: solid #D1D1D1 1px;
 }
@@ -54,6 +57,7 @@ color: white;
 border: solid yellow 4px;
 display: flex;
 align-items:center;
+height: 60px;
 }
 
 #liste_barre{
@@ -62,6 +66,18 @@ align-items:center;
     align-items: center;
     width: 100%;
     margin: 0px 32px;}
+
+.bouton_barre:hover, a:focus {background-color: #525050;}
+
+.bouton_barre{
+    border: solid yellow 4px;
+}
+
+.icon_barre{
+    border: solid red 4px;
+    height: 20px;
+    width: 20px;
+}
 
 /* barre de recherche */
 #search{
@@ -76,9 +92,15 @@ align-items:center;
 #logo_asos{width: 4%;}
 /* barre foncé */
 
-#menu{list-style: none;}
+
 
 /* barre gris clair */
+nav{
+    height: 50px;
+}
+
+#menu{list-style: none;}
+
 #navigation{border: solid fuchsia 4px;
 background-color: #525050;}
 /* barre gris clair */
@@ -137,3 +159,5 @@ background-color: #525050;}
     height: 500px;
     width: 400px;
 }
+
+/* body */
