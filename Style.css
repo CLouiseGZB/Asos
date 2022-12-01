@@ -86,18 +86,54 @@ background-color: #525050;}
 /* body */
 #Moment{ 
     border: solid black 4px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #Bonnet{
-
     border: solid red 4px;
+    height: 450px;
+    width: 350px;
+
 }
 
 #sweat_vert{
     border:  solid purple 4px;
+    height: 450px;
+    width: 350px;
+
 }
 
 #outwear{
     border: solid violet 4px;
+    height: 450px;
+    width: 350px;
 }
 
+#party{
+    border: solid turquoise 4px;
+    height: 450px;
+    width: 350px;
+}
+
+#duo{ 
+    border: solid black 4px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#basket{
+    border: solid pink 4px;
+    height: 500px;
+    width: 400px;
+}
+
+#silhouette{
+    border: solid yellow 4px;
+    height: 500px;
+    width: 400px;
+}
