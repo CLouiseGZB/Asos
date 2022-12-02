@@ -9,6 +9,9 @@ a{text-decoration: none;
     transition: all 0.2s ease-out; 
     }
 
+a:visited{
+    color: inherit;
+}
 
 /* entête */
 
@@ -89,7 +92,8 @@ margin: 0px 32px 0px 32px;}
 
 .bouton_barre{
     padding: 18px;
-    font-weight: bold
+    font-weight: bold;
+    /* color: #ffffff; */
 }
 
 .icon_barre{
@@ -155,6 +159,7 @@ justify-content: space-around;
 height: 50px;
 width: 100%;
 font-size: 14px;
+color: #ffffff;
 }
 
 .liste_navigation:hover, a:focus {
@@ -245,9 +250,10 @@ figure{
     font-size: 35px;
 }
 
+
+/* tableau */
 #tableau{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
 
 }
@@ -273,10 +279,65 @@ table.GeneratedTable td, table.GeneratedTable th {
 table.GeneratedTable thead {
   background-color: #e5bff3;
 }
+/* tableau fin */
+
+/* h1 et p */
+#rouge{
+    display: flex;
+    margin-top: 100px;
+}
+
+#xmas{
+    /* border: solid salmon 4px; */
+    display: flex;
+    flex-direction: column;
+    width:  50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+p, #xmas{
+    font-size: 20px;
+}
+
+#xmas_robe{
+    width: 50%;
+    /* border: solid crimson 3px; */
+}
+
+h2{margin: 30px;
+    font-size: 20px;
+}
+
+#btn_robe{
+    background-color: #2D2D2D;
+    border: solid 0px;
+    color: #ffffff;
+    border-radius: 18px;
+    width: 180px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+#btn_robe:hover, #btn_robe:focus{
+    background-color: #525050;
+    color: #ffffff;
+}
+/* h1 et p fin */
 
 
 
+/* body fin */
 
-
-
-/* body */
+/* footer */
+footer{
+    background-color: #2D2D2D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+    }
+ /*footer fin */ 
