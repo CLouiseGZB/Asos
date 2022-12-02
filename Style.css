@@ -248,6 +248,12 @@ figure{
     justify-content: center;
     flex-direction: column;
     font-size: 35px;
+
+}
+
+figure:hover, figure:focus{
+text-decoration:underline;
+transition: 0.3s;
 }
 
 
@@ -323,6 +329,7 @@ h2{margin: 30px;
 #btn_robe:hover, #btn_robe:focus{
     background-color: #525050;
     color: #ffffff;
+    text-decoration: initial;
 }
 /* h1 et p fin */
 
