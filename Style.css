@@ -42,9 +42,6 @@ font-size: 14px;
     line-height:  30px;
 }
 
-.liste:hover{ 
-    /* color: blue; */
-}
 
 span{border-left: solid #D1D1D1 1px;
 }
@@ -257,35 +254,7 @@ transition: 0.3s;
 }
 
 
-/* tableau */
-#tableau{
-    display: flex;
-    justify-content: center;
 
-}
-
-
-table.GeneratedTable {
-  width: 100%;
-  background-color: #ffffff;
-  border-collapse: collapse;
-  border-width: 2px;
-  border-color: #ffcc00;
-  border-style: solid;
-  color: #000000;
-}
-
-table.GeneratedTable td, table.GeneratedTable th {
-  border-width: 2px;
-  border-color: #ffcc00;
-  border-style: solid;
-  padding: 3px;
-}
-
-table.GeneratedTable thead {
-  background-color: #e5bff3;
-}
-/* tableau fin */
 
 /* h1 et p */
 #rouge{
