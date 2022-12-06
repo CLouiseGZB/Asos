@@ -3,7 +3,7 @@
     font-family: 'Didact Gothic', sans-serif;
 }
 
-ul{list-style: none;}
+ul, ol{list-style: none;}
 
 a{text-decoration: none;
     transition: all 0.2s ease-out; 
@@ -91,6 +91,11 @@ margin: 0px 32px 0px 32px;}
     padding: 18px;
     font-weight: bold;
     /* color: #ffffff; */
+}
+
+#dropdown-menu{
+    background-position: bottom;
+    min-width: 230px;
 }
 
 .icon_barre{
